@@ -29,7 +29,19 @@
       <br><br><br><br> 
       <center>
          <div class="container" id="container1">
-            <h1><font color="Green">What do you want to learn about<?php echo "hello world"; ?></font></h1>
+           <?php $flag=1;
+           
+           if($flag == 1 )
+           {
+           ?>
+            <h1><font color="Green">Hello World</font></h1>
+            <?php } 
+            else 
+            {
+            ?>
+            <h1><font color="Green">What do you want to learn about</font></h1>
+            <?php } ?>
+            
          </div>
          <br><br> 
          <div class="row">
