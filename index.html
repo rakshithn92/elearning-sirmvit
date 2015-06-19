@@ -1,60 +1,115 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-</head>
-   <body >
-      <div class="nav navbar-inverse navbar-fixed-top">
-         <div class="container-fluid">
-            <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">E learning Portal</a> </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-               <ul class="nav navbar-nav">
-                  <li class="active"><a href="loghome.php">Home</a></li>
-                  <li class="dropdown">
-                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore<span class="caret"></span></a> 
-                     <ul class="dropdown-menu">
-                        <li><a href="explore_android.php">Android</a></li>
-                        <li><a href="explore_java.php">Java</a></li>
-                        <li><a href="#">Coming Soon</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="aboutus.php">About Us</a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <br><br><br><br> 
-      <center>
-         <div class="container" id="container1">
-           <?php $flag=1;
-           
-           if($flag == 1 )
-           {
-           ?>
-            <h1><font color="Green">Hello World</font></h1>
-            <?php } 
-            else 
-            {
-            ?>
-            <h1><font color="Green">What do you want to learn about</font></h1>
-            <?php } ?>
-            
-         </div>
-         <br><br> 
-         <div class="row">
-            <div class="col-sm-4" id="container2"><a href="explore_android.php"><img src="http://cdn.androidadvices.com/wp-content/uploads/2015/01/android.png" width="280" height="220"></a> </div>
-            <div class="col-sm-4" id="container2"><a href="explore_java.php"><img src="http://blog.parhammajd.co.uk/wp-content/uploads/2013/05/di-logo-java-orange.png" width="280" height="220"></a></div>
-            <div class="col-sm-4" id="container2"><img src="http://mjcent.net/wp-content/uploads/2015/01/coming-soon.png" width="280" height="220"></div>
-         </div>
-         <div class="row">
-            <div class="col-sm-4"><a href="explore_android.php">Tutorials on Android app development</a></div>
-            <div class="col-sm-4"><a href="explore_java.php">Tutorials on Java programming using Eclipse</a>		</div>
-            <div class="col-sm-4">More Categories coming soon</div>
-         </div>
-      </center>
+	<head>
+		<title>Medical Addicts</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-</body>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Medical Addicts</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Medical Addicts</h2>
+							<p>Every <br/>
+							Doctor's Need.<br />
+							</p>
+							
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>INTRODUCTION ABOUT MEDICAL ADDICTS<br />
+								some dummy text</h2>
+								<p>some dummy text<br />
+								some dummy text</p>
+							</header>
+							
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>BLOG ONE<br />
+								DESCRIPTION</h2>
+								<p>ADDITION INFO ABOUT BLOG 1.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>BLOG TWO<br />
+								DESCRIPTION</h2>
+								<p>ADDITION INFO ABOUT BLOG 2.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>BLOG THREE<br />
+								DESCRIPTION</h2>
+								<p>DESCRIPTION ABOUT BLOG THREE.</p>
+							</div>
+						</section>
+					</section>
+
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Medadds</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
